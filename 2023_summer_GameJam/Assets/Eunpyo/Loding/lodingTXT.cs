@@ -9,8 +9,7 @@ public class lodingTXT : MonoBehaviour
     string[] lodingString = new string[4];
     float time;
     int i;
-
-    private void Start()
+    void Start()
     {
         lodingTMPro = GetComponent<TextMeshProUGUI>();
         lodingString[0] = "Loding";
@@ -20,10 +19,10 @@ public class lodingTXT : MonoBehaviour
         time = 0.0f;
         i = 0;
     }
-    private void Update()
+    void Update()
     {
         time += Time.deltaTime;
-        if (time > 0.14f)
+        if(time > 0.14f)
         {
             time = 0.0f;
             lodingTMPro.text = lodingString[i];
