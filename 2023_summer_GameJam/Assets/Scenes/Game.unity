@@ -413,7 +413,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.76, y: 1}
+  m_Size: {x: 0.21, y: 0.48}
   m_EdgeRadius: 0
 --- !u!114 &1030847023
 MonoBehaviour:
@@ -424,7 +424,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1030847019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3a85be5cc2298841b9e749ef1c81ba4, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c2268f70edcd1e4e9ae50036140eb1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1158843303
@@ -456,11 +456,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1158843303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de0ac53cb9ebfe84194a1ae5dd3eb0f4, type: 3}
+  m_Script: {fileID: 11500000, guid: 2399a63cc3e57a141a835dc35c9ff464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  JumpPoewr: 13
+  speed: 4
+  JumpPoewr: 10
 --- !u!61 &1158843305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -502,7 +502,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 4
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -876,7 +876,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2004435495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf01e763951e17942a1b011d8ce84c8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 018a70c5d2d2da64c9aa814efe14a84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerPos: {fileID: 1158843308}

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class Move : MonoBehaviour
+public class MainGame_Move : MonoBehaviour
 {
-    float time;
     Rigidbody2D rb;
     public float speed;
     public float JumpPoewr;
@@ -14,7 +13,6 @@ public class Move : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         Jump = false;
-        time = 0.0f;
     }
     void Update()
     {

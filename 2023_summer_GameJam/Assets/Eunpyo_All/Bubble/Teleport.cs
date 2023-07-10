@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JumpCheck : MonoBehaviour
+public class Teleport : MonoBehaviour
 {
+    public Transform teleportPos;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Round")
-            MainGame_Move.Jump = false;
+        collision.gameObject.transform.position = teleportPos.position;
     }
 }
