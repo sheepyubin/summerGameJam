@@ -377,16 +377,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 757864679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15877d24fc11f194880f900b8fae9362, type: 3}
+  m_Script: {fileID: 11500000, guid: f74882fccafa8bd47ba13f708a5b4af7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   baby: {fileID: 3440224}
   startPos: -5.6
   endPos: 5.6
-  loding_Smin: 16
-  loding_Smax: 41
-  loding_Tmin: 3
-  loding_Tmax: 10
+  loding_Smin: 6
+  loding_Smax: 32
+  loding_Tmin: 6
+  loding_Tmax: 11
   dil: 0.4
 --- !u!1 &870630514
 GameObject:
@@ -755,8 +755,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 56, y: -241.718}
-  m_SizeDelta: {x: 425.933, y: 127.374}
+  m_AnchoredPosition: {x: 33, y: -241.72}
+  m_SizeDelta: {x: 477.252, y: 127.374}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988860440
 MonoBehaviour:
@@ -778,10 +778,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Loding . . .
+  m_text: Loding...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 51043189ad194444aad2941854b3debf, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 51043189ad194444aad2941854b3debf, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d2910f34eacbb354c8d29404d01f4d8c, type: 2}
+  m_sharedMaterial: {fileID: -5153009564384924791, guid: d2910f34eacbb354c8d29404d01f4d8c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -864,6 +864,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1988860438}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 201a808d58fd5a242bd505a377639a3b, type: 3}
+  m_Script: {fileID: 11500000, guid: f0ea8166a32530c44af374a08767fa29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

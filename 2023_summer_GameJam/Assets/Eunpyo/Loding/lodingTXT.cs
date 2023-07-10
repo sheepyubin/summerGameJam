@@ -13,9 +13,9 @@ public class lodingTXT : MonoBehaviour
     {
         lodingTMPro = GetComponent<TextMeshProUGUI>();
         lodingString[0] = "Loding";
-        lodingString[1] = "Loding .";
-        lodingString[2] = "Loding . .";
-        lodingString[3] = "Loding . . .";
+        lodingString[1] = "Loding.";
+        lodingString[2] = "Loding..";
+        lodingString[3] = "Loding...";
         time = 0.0f;
         i = 0;
     }
