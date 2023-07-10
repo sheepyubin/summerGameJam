@@ -17,7 +17,6 @@ public class Fill_Loding : MonoBehaviour
     bool loding_Term;       //로딩 텀 T/F
     float loding_Random;    //로딩 랜덤값
     float loding_Temp;      //로딩 현황
-    bool Ennd = false;
 
     public int loding_Smin;
     public int loding_Smax;
@@ -39,7 +38,6 @@ public class Fill_Loding : MonoBehaviour
         if (this.GetComponent<Image>().fillAmount > 7.4f)
         {
             startTime = Time.time;
-            Ennd = true;
         }
         time += Time.deltaTime;
         if (time > loding_speed)
