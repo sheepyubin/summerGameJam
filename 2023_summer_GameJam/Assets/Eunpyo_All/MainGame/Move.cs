@@ -25,17 +25,6 @@ public class Move : MonoBehaviour
             rb.AddForce(Vector3.up * JumpPoewr, ForceMode2D.Impulse);
             Jump = true;
         }
-        if(Jump)
-        {
-            time += Time.deltaTime;
-            if(time > 0.7f)
-            {
-                Jump = false;
-                time = 0.0f;
-            }
-        }else if(!Jump)
-        {
-            time = 0.0f;
-        }
+        
     }
 }
