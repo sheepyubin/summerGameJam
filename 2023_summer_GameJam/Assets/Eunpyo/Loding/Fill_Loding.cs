@@ -6,7 +6,6 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Fill_Loding : MonoBehaviour
 {
-
     [SerializeField] GameObject baby;
     public float startPos;
     public float endPos;

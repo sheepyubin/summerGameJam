@@ -384,9 +384,9 @@ MonoBehaviour:
   startPos: -5.6
   endPos: 5.6
   loding_Smin: 16
-  loding_Smax: 32
-  loding_Tmin: 6
-  loding_Tmax: 13
+  loding_Smax: 41
+  loding_Tmin: 3
+  loding_Tmax: 10
   dil: 0.4
 --- !u!1 &870630514
 GameObject:
