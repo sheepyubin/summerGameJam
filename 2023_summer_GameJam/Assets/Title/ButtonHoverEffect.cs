@@ -21,7 +21,6 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
         textMeshProGUI = GetComponent<TextMeshProUGUI>();
         originalScale = transform.localScale; //원래 크기 설정
         targetScale = originalScale * hoverScale; // 스케일을 바꿀 정도
-        originalPosition = transform.localPosition; //원래 위치 설정
     }
 
     public void OnPointerEnter(PointerEventData eventData) //마우스가 올라오면 변화
