@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Round
   - Wall
+  - Max_Y
   layers:
   - Default
   - TransparentFX

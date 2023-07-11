@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 35441354}
   - component: {fileID: 35441353}
   - component: {fileID: 35441352}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: child
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 307744586}
   - component: {fileID: 307744585}
   - component: {fileID: 307744584}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: middle_Round_6
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   - component: {fileID: 596032490}
   - component: {fileID: 596032489}
   - component: {fileID: 596032488}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: middle_Round_3
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -923,6 +923,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &682603061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 682603063}
+  - component: {fileID: 682603062}
+  m_Layer: 0
+  m_Name: Max_Y
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &682603062
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682603061}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 17.82, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &682603063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682603061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.21, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &776182568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,7 +1104,7 @@ GameObject:
   - component: {fileID: 839644864}
   - component: {fileID: 839644863}
   - component: {fileID: 839644862}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: child
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -1524,7 +1582,7 @@ GameObject:
   - component: {fileID: 1116834756}
   - component: {fileID: 1116834755}
   - component: {fileID: 1116834754}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: middle_Round_2
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -1666,7 +1724,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 20, y: 0}
@@ -1692,7 +1750,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -20, y: 0}
@@ -1743,7 +1801,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1160430728
 GameObject:
   m_ObjectHideFlags: 0
@@ -2089,7 +2147,7 @@ GameObject:
   - component: {fileID: 1294230892}
   - component: {fileID: 1294230891}
   - component: {fileID: 1294230890}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: child
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -2213,7 +2271,7 @@ GameObject:
   - component: {fileID: 1364235988}
   - component: {fileID: 1364235987}
   - component: {fileID: 1364235986}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: child
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -2383,100 +2441,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &1374190911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1374190912}
-  - component: {fileID: 1374190913}
-  - component: {fileID: 1374190915}
-  - component: {fileID: 1374190914}
-  m_Layer: 0
-  m_Name: Max_Y
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1374190912
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374190911}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.22, z: -0.02399666}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2109505960}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1374190913
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374190911}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.69}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 18.1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &1374190914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374190911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdff41eb7a6940b49adb05f568c66946, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPos: {fileID: 1680862466}
---- !u!50 &1374190915
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374190911}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1410768482
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,7 +2453,7 @@ GameObject:
   - component: {fileID: 1410768485}
   - component: {fileID: 1410768484}
   - component: {fileID: 1410768483}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: middle_Round_1
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -2614,7 +2578,7 @@ GameObject:
   - component: {fileID: 1415463722}
   - component: {fileID: 1415463721}
   - component: {fileID: 1415463720}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: child
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -2738,7 +2702,7 @@ GameObject:
   - component: {fileID: 1521741842}
   - component: {fileID: 1521741841}
   - component: {fileID: 1521741840}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: middle_Round_7
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -3039,7 +3003,7 @@ GameObject:
   - component: {fileID: 1541581975}
   - component: {fileID: 1541581974}
   - component: {fileID: 1541581973}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: middle_Round_5
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -3289,7 +3253,7 @@ GameObject:
   - component: {fileID: 1711544687}
   - component: {fileID: 1711544686}
   - component: {fileID: 1711544685}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: child
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -3413,7 +3377,7 @@ GameObject:
   - component: {fileID: 1895672514}
   - component: {fileID: 1895672513}
   - component: {fileID: 1895672512}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: child
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -3537,7 +3501,7 @@ GameObject:
   - component: {fileID: 1927205920}
   - component: {fileID: 1927205922}
   - component: {fileID: 1927205923}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: middle_Round_4
   m_TagString: Round
   m_Icon: {fileID: 0}
@@ -3836,7 +3800,6 @@ Transform:
   - {fileID: 776182570}
   - {fileID: 1279989650}
   - {fileID: 895658917}
-  - {fileID: 1374190912}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
