@@ -7,7 +7,7 @@ public class semiconductor : MonoBehaviour
     GameObject child;
     private void Start()
     {
-        child = transform.GetChild(0).gameObject;
+        child = transform.GetChild(0).gameObject;   
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -5,14 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Round
+  - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - bubble
   - Water
   - UI
-  - 
+  - Temp
   - 
   - 
   - 
