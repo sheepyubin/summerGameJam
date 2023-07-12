@@ -7,38 +7,23 @@ using UnityEngine.UI;
 public class SecenChanger : MonoBehaviour
 {
     public Image fadePanel;
-    public float fadeDuration = 1.0f;
+    public float fadeDuration = 2.0f;
 
     private void Start()
     {
         fadePanel.color = new Color(fadePanel.color.r, fadePanel.color.g, fadePanel.color.b, 1f);
+        fadePanel.gameObject.SetActive(false);
+    }
+
+    private void FadeIn(System.Action onComplete = null)
+    {
+        Debug.Log("IN");
         fadePanel.gameObject.SetActive(true);
-    }
-
-    public void FadeOutAndLoadScene(string sceneName)
-    {
-        // ÆäÀÌµå ¾Æ¿ô ÈÄ ¾À ÀüÈ¯
-        FadeOut(() =>
-        {
-            SceneManager.LoadScene("loding");
-        });
-    }
-
-    private void FadeIn()
-    {
         LeanTween.alpha(fadePanel.rectTransform, 0f, fadeDuration)
             .setEase(LeanTweenType.linear)
             .setOnComplete(() => fadePanel.gameObject.SetActive(false));
+        Debug.Log("END");
     }
-
-    private void FadeOut(System.Action onComplete = null)
-    {
-        fadePanel.gameObject.SetActive(true);
-        LeanTween.alpha(fadePanel.rectTransform, 1f, fadeDuration)
-            .setEase(LeanTweenType.linear)
-            .setOnComplete(() => onComplete?.Invoke());
-    }
-
     public void SceneChange()
     {
         FadeIn();

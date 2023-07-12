@@ -10,6 +10,17 @@ public class Option : MonoBehaviour
     public GameObject Panel;
     public GameObject X;
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && !popupPrefab.activeSelf)
+        {
+            ShowPopup();
+        }
+        else if(Input.GetKeyDown(KeyCode.Escape) && popupPrefab.activeSelf)
+        {
+            DisablePopup();
+        }
+    }
     public void ShowPopup() //팝업 활성화 함수
     {
         popupPrefab.SetActive(true);
@@ -17,7 +28,7 @@ public class Option : MonoBehaviour
         X.SetActive(true);
     }
 
-    public void DisablePopup() //팝업 활성화 함수
+    public void DisablePopup() //팝업 비활성화 함수
     {
         popupPrefab.SetActive(false);
         Panel.SetActive(false);
